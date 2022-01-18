@@ -1,0 +1,869 @@
+.wrrapper{
+    width: 1050px ;
+    margin:0px auto ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+.header{
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+}
+/* title */
+.header .title{
+    background: #eeeeee;
+    display: flex;
+}
+/* left */
+.header .title .left{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.header .title .left a{
+     text-decoration: none;  
+     color: #8895b3;
+
+}
+.header .title .left a:hover{
+    cursor: pointer;
+    color:red ;
+}
+.header .title .left a i{
+    margin-right:9px ;
+    margin-left: 18px;
+}
+/* /left */
+/* right */
+.header .title .right{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position:absolute;
+    right:10px;
+}
+.header .title .right ul {
+    display: flex;
+    list-style:none; 
+
+}
+.header .title .right ul li {
+    margin-right: 19px;
+}
+.header .title .right ul li a{
+    text-decoration: none;  
+    color: #8895b3;
+}
+.header .title .right ul li a:hover{
+    cursor: pointer;
+    color:red ;
+}
+.header .title .right ul li a i{
+    margin-right: 9px;
+}
+/* /right */
+/* /title */
+/* content */
+.content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* left */
+.content .left{
+    margin-right: 100px;
+}
+.content .left img{
+    padding-left: 12px;
+}
+/* /left */
+/* right */
+.content .right ul {
+  list-style: none;
+}
+.content .right ul li:first-child{
+  margin-bottom: 15px;
+}
+/* top */
+.content .right ul li .top ul {
+  display: flex;
+  margin-left: -20px;
+}
+.content .right ul li .top ul li{
+    margin-right: 49px;
+}
+.content .right ul li .top ul li a {
+    text-decoration: none;
+    color:#8895b3 ; 
+
+}
+.content .right ul li .top ul li a i {
+    color:#ea1616; 
+    margin-right: 9px ;
+    font-size: 20px;
+}
+/* /top */
+/* search */
+.content .right ul li{
+    display: flex;
+}
+.content .right ul li .search input{
+    width: 291px ;
+    height: 41px;
+    border: 1px solid #dddddd;
+   
+}
+.content .right ul li .search select{
+    width: 160px;
+    height: 41px;
+    margin-left: -4px;
+    border: 1px solid #dddddd;
+    color : #aaaaaa ;
+}
+.content .right ul li .search button{
+    width: 42px;
+    height: 41px;
+    margin-left: -5px ;
+    border: none;
+    background: red;
+    color:white;
+}
+.content .right ul li .search button:hover{
+    background: #d4d4d4;
+}
+/* /search */
+/* mycart */
+.content .right ul li .mycart{
+    margin-left: 40px;
+    display: flex;
+}
+.content .right ul li .mycart a{
+    text-decoration: none;
+    color:#8895b3 ;
+}
+
+.content .right ul li .mycart a .icon{
+    background-image: url('../images/mycart-icon.jpg');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 45px ;
+    width: 45px;
+    margin-right: 10px;
+}
+.content .right ul li .mycart p:hover{
+    cursor: pointer;
+    color:red ;
+}
+.content .right ul li .mycart .text {
+    display: inline-block;
+    padding-top: 10px; 
+    margin-right: 10px;
+    font-size: 13px;
+}
+/* /mycart */
+/* /right */
+/* /content */
+/* menu-top */
+.menu-top{
+    display: flex;
+}
+.menu-left{
+    background: url('../images/bg-trangchu.jpg');
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 52px;
+    position: relative;
+    margin-top: -8px;
+}
+.menu-left a{
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#ffffdb ;
+    position: absolute;
+    left:30px ;
+    top:20px;
+}
+/* /menu-left */
+/* menu-right */
+.menu-right{
+    width: 883px;
+}
+.menu-right ul {
+    list-style: none;
+    display: flex;
+    background: #222222;
+}
+
+.menu-right ul li:first-child{
+    margin-left: -10px;
+}
+.menu-right ul li:hover{
+    cursor: pointer;
+    background: #bc1111;
+    
+}
+.menu-right ul li a{
+    text-decoration: none;
+    color:#ffffdb ; 
+    font-size: 15px;
+    display: inline-block;
+    margin: 12px 30px;
+}
+
+/* /menu-right */
+/* /menu-top */
+/* /header */
+/* -------------------------wr-content---------------------------- */
+.wr-content{
+    margin-top: 10px;
+    display: flex;
+}
+/* ===========================left==================== */
+.wr-content .left{
+    width: 250px ;
+    margin-right: 10px;
+}
+.wr-content img{
+    width: 100%;
+}
+
+.wr-content .product .content ul{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.wr-content .product .content ul li {
+   line-height: 46px;
+   background: #f8f8f8;
+   border:1px solid #eeeeee ;
+   border-bottom: 1px dotted #d4d4d4;
+   position: relative;
+}
+.wr-content .product .content ul li:last-child{
+    border:1px solid #eeeeee ;
+}
+.wr-content .product .content ul li .icon{
+    color:#ea1616 ;
+    position: absolute;
+    right:15px ;
+    top:16px ;
+}
+.wr-content .product .content ul li a{
+    color : #ea1616 ; 
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.wr-content .product .content ul li a  i {
+    margin-left: 11px;
+    margin-right: 5px;
+    font-size: 12px;  
+}
+
+/* advertisement */
+
+.advertisement ul {
+    margin-top: -1px;
+}
+.advertisement ul li{
+    margin-bottom: 10px;
+}
+.advertisement ul li:first-child{
+    border-top: 1px solid black;
+}
+.advertisement .content{
+    margin-top: 0;
+}
+/* /advertisement */
+/* exchange-rate */
+.exchange-rate img{
+    width: 100%;
+}
+.exchange-rate {
+    margin-top: -15px;
+}
+table,th,tr{
+    border: 1px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+}
+table{
+    background: #f7f7f7;
+    
+}
+th,tr{
+    padding: 7px 9px;
+    
+}
+th:last-child{
+    padding: 8px 10px;
+}
+.exchange-rate .text {
+    margin-top: -10px;
+}
+.exchange-rate .text ul li{
+    font-size: 14px;
+    
+}
+.exchange-rate .text ul li span{
+    color:#ea1616 ;
+    margin-right: 100px;
+}
+.exchange-rate .text ul li img{
+    width: 70px;
+    height: 60px;
+}
+/* /exchange-rate */
+/* weather */
+.weather{
+    margin-top: 10px;
+}
+.weather .content{
+    border:1px solid #e1e1e1 ;
+    margin-top: 0;
+}
+.weather .content ul li{
+    padding-top:11px ; 
+    padding-bottom: 11px;
+    padding-left: 11px;
+    font-size: 12px;
+}
+.weather .content ul li label{
+    font-weight: bold;
+
+}
+.weather .content ul li select{
+    width: 115px;
+    height: 18px;
+    border: 1px solid #767676;
+}
+.weather .content ul li ul li {
+    margin-left: 80px;
+    line-height: 11px;
+    padding: -5px;
+}
+/* /weather */
+/* statistics */
+.statistics .content{
+    margin-top : 0;
+}
+.statistics ul {
+   width: 100%;
+   border:1px solid #e1e1e1 ;
+   font-size: 13px;
+}
+.statistics ul li{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.statistics ul li i{
+    color:#a2a2a2 ;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.statistics ul li span{
+    margin-left: 22px;
+    font-weight: 600;
+}
+/* /statistics */
+/* ----------------------------/left----------------------------- */
+
+/*--------------------------- main ---------------------------------*/
+.wr-content .main{
+   width: 512px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+/* slide */
+.slide{
+    margin-top: 6px; 
+    overflow: hidden;
+    position: relative;
+}
+.slide .prev{
+    width: 70px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:140px ; 
+    left: 0px;
+    display: none;
+}
+.slide .next{
+    width: 70px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:140px ; 
+    right: 0px;
+    display: none;
+
+}
+.slide:hover .prev{
+    display: block;
+}
+.slide:hover .next{
+    display:block ;
+}
+
+
+
+/* /slide */
+/* list-product */
+.list-product{
+    margin-top: 10px;  
+}
+.list-product .title{
+    display: flex;
+    border: 1px solid #e7e7e7;
+    margin-top: 15px;
+    font-size: 13px ;
+
+}
+.list-product .title button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.list-product .title .button1{
+    margin-left: 10px;
+}
+.list-product .title .button1 i{
+    color: #ea1616 ;
+}
+.list-product .title .button2{
+    margin-right: 10px;
+}
+.list-product .title .button2 i:hover{
+    color:#ea1616 ;
+}
+.list-product .title .number{
+    margin-right: 110px;
+}
+.list-product .title .number select{
+    width: 40px;
+    height: 26px;
+    margin-top: 10px;
+}
+.list-product .title .sort select{
+    width: 125px;
+    height: 30px;
+    margin-top: 10px;
+}
+/* product */
+.main .product{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-item{
+    width: 46%;
+    margin-left: 10px;
+    margin-right: 9px;
+    text-align: center;
+}
+.product-item .img{
+    border:1px solid #d4d4d4 ;
+}
+.product-item .img img{
+     width: 98%;
+     margin: 2px;
+}
+.product-item .name a{
+    font-size: 14px;
+    color:#222222 ;
+}
+.product-item .name a:hover{
+    color:#ea1616 ;
+}
+.product-item .price {
+    color: #ea1616;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
+.product-item .cart{
+    margin-bottom: 30px;
+}
+.product-item .cart .span{
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+}
+.product-item .cart .span:hover{
+    background: red;
+}
+.product-item .cart span i{
+    border-right: 1px solid white;
+    padding-right: 5px;
+}
+/* /product */
+/* /list-product */
+/* ------------------------/main--------------------------------- */
+/*======================= right====================================== */
+.wr-content .right{
+     width: 248px;
+     margin-left: 10px;
+     margin-top: 17px;
+}
+.wr-content .right .content{
+    border:1px solid #e1e1e1 ;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wr-content .right .content .hotline{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color:black ;
+}
+.wr-content .right .content .hotline p{
+    margin-bottom: 0;
+}
+.wr-content .right .content .hotline span{
+    color:#ea1616 ;
+    margin-left: -10px;
+}
+.wr-content .right .content .halenashop span{
+    color:#ea1616 ;
+    font-weight: bold;
+}
+.wr-content .right .content .halenashop{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.wr-content .right .content .img {
+    width: 30%;
+   margin-bottom: 20px;
+}
+/* hot-news */
+.hot-news .content .news{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #a2a2a2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hot-news .content .news:last-child{
+    border-bottom: 0;
+}
+.hot-news .content .news .img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.hot-news .content .news .post p{
+   margin-bottom: 0;
+   font-size: 13px;
+   color: #222222;
+   font-weight: 600 ;
+   margin-left: 10px ;
+}
+/* /hot-news */
+.wr-content .right .advertisement .content{
+    border:0 ;
+}
+
+/* video */
+
+/* /video */
+/*================= /right-============================t */
+/* -------------------------------/wr-content--------------------------- */
+/* footter */
+.footter .logo{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footter .logo .img{
+    width: 20%;
+}
+.footter .contact{
+    display: flex;
+    background:#222222;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.footter .contact p{
+    color:#ffffff ;
+    padding-top:50px ;
+}
+.footter .contact .line{
+    width: 30px;
+    border-bottom: 1px solid #ea1616;
+    margin-top: -10px;
+}
+.footter .contact ul li{
+    color:#a2a296 ;
+    padding: 10px 0px ;
+}
+.footter .contact .introduce{
+    margin-left: 100px;
+}
+.footter .contact .help{
+    margin-left: 80px;
+}
+.footter .contact .information{
+    margin-left: 60px;
+}
+.footter .contact .information i{
+    margin-right: 5px;
+}
+.footter .contact .face{
+    margin-left: 30px;
+}
+.footter .contact .face a{
+    padding:10px;
+    border: 1px solid #ea1616;
+    border-radius: 30px;
+    font-weight: bold;
+    color:#ffffff ;
+    font-size: 20px;
+    margin-right: 3px ;
+
+}
+.footter .contact .face a:hover{
+    background: white;
+    color:#ea1616 ;
+}
+.footter .contact .face i{
+    padding-top:30px;
+}
+/* /footter */
+
+
+
+
+/* -----------------------detail.html============================================ */
+/* -----------------------main----------------------------------------------- */
+.main .title-product{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.main .title-product a{
+    color: #888888;
+}
+.main .title-product .page{
+    color:#ea1616 ;
+}
+.main .title-product a:hover{
+    color:#ea1616 ;     
+}
+/* ---------------------------/main------------------------------------------ */
+/* =========================right============================================= */
+.right .product-hot .content .product-item{
+    width: 90%;
+}
+.right .product-hot .content .product-item .img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* ============================/right===================================== */
+/* =======================detail.html--------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ===========category.html============ */
+.left .sales-policy .content{
+    border:1px solid #e1e1e1 ;
+    margin-top: 0;
+}
+.left .sales-policy .content ul li{
+    line-height: 20px;
+    color:#333333 ;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    margin-top: 8px;
+
+}
+.left .sales-policy .content .box{
+    display: inline-block;
+    width: 20px;
+    background: red;
+    color:white ;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+.left  .content .red{
+    color: #ea1616;
+}
+.left .tutorial .content{
+    border:1px solid #e1e1e1 ;
+    margin-top: 0;
+}
+.tutorial .content ul li{
+    color:#333333 ;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.tutorial .content .span{
+    margin-right: 5px;
+}
+.left .product-hot .content{
+    display: block;
+    border:1px solid #e1e1e1 ;
+    margin-top: 0;
+}
+.left .product-hot .content .product-item{
+    width: 90%;
+}
+.left .product-hot .content .product-item .img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* --------------------------------left-------------------------- */
+/* ------------------------------main------------------------- */
+.main .title-product .page2{
+    color:#bc1111 ;
+}
+.main .detail-product {
+    display: flex;
+}
+.main .detail-product .left{
+    width: 40%; 
+}
+.main .detail-product .left img{
+    border: 4px solid #eeeeee;
+}
+.main .detail-product .right .name{
+    margin-top: -20px;
+    font-weight: bold;
+    color:black ;
+    font-size: 24px;
+    
+}
+.main .detail-product .right .name p{
+    margin-bottom: 0;
+}
+.main .detail-product .right .price{
+    color:#ea1616 ;
+    font-size: 24px;
+}
+.main .detail-product .right .id-product{
+    color:#555555 ;
+    font-weight: bold;
+
+}
+.main .detail-product .right .id-product .line{
+    border-bottom: 1px solid #bbbbbb ;
+}
+.main .detail-product .right .button{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.main .detail-product .right .button i{
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.main .detail-product .right .button .like{
+    margin-right: 15px;
+    background: #1877f2;
+    border-radius: 5px;
+}
+.main .detail-product .right .button .share{
+    margin-right: 15px;
+    background: #1877f2;
+    border-radius: 5px;
+}
+.main .detail-product .right .number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main .detail-product .right .number .text{
+   width: 53px;
+   height: 25px;
+   padding-left: 10px;
+}
+.main .detail-product .right .cart{
+    font-size: 13px;
+}
+.main .detail-product .right .cart span{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.main .detail-product .right .cart .add-cart{
+    background:#222222;
+    color :white ;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.main .detail-product .right .cart .add-cart i{
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.main .detail-product .right .cart .buy-now{
+    background: #ea1616;
+    color:white ;
+    border-radius: 5px;
+}
+.main .detail-product .right .call-me{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.main .detail-product .right .call-me .call{
+    display: flex;
+    margin-top: 10px;
+}
+.main .detail-product .right .call-me .call input{
+    width: 100px;
+    height: 30px;
+    padding-left:2px;
+}
+.main .detail-product .right .call-me .call button{
+    width: 130px;
+    background:#ea1616;
+    color:white ;
+}
+.main .detail-product .right .call-me .call button i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main .information-product1{
+    margin-top: 40px;
+}
+.main .information-product1 .title span{
+    background: #222222;
+    color: white;
+    padding: 12px;
+}
+.main .information-product1 .title .line{
+    border:1px solid #222222 ;
+    margin-top: 10px;
+}
+.main .information-product1 .content{
+    display: block;
+    color:#333333 ;
+    font-size: 13px;
+    text-align: justify;
+}
+.main .information-product1 .content p{
+    padding-top: 20px;
+}
+/* -------------------------------/main------------------ */
+/* -----------------------------------right------------------ */
+
+/* ----------------------------/right *-------------------------/
+
+/* ------------/category.html--------------- */
